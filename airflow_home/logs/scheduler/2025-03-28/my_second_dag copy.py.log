@@ -1,0 +1,238 @@
+[2025-03-28T18:40:10.738+0000] {processor.py:186} INFO - Started process (PID=18092) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:40:10.738+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:40:10.739+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:40:10.747+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:40:10.836+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.836+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:my_third_dag
+[2025-03-28T18:40:10.844+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.844+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:my_third_dag
+[2025-03-28T18:40:10.850+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.850+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:my_third_dag
+[2025-03-28T18:40:10.859+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.858+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:my_third_dag
+[2025-03-28T18:40:10.864+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.864+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:my_third_dag
+[2025-03-28T18:40:10.870+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.870+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:my_third_dag
+[2025-03-28T18:40:10.876+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.876+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:my_third_dag
+[2025-03-28T18:40:10.877+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:40:10.888+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.887+0000] {dag.py:3262} INFO - Creating ORM DAG for my_third_dag
+[2025-03-28T18:40:10.895+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:40:10.895+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2025-03-28T18:40:10.908+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.175 seconds
+[2025-03-28T18:41:02.749+0000] {processor.py:186} INFO - Started process (PID=18664) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:41:02.749+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:41:02.751+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:41:02.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:41:02.759+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:41:02.777+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:41:02.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:41:02.792+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:41:02.792+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2025-03-28T18:41:02.808+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.063 seconds
+[2025-03-28T18:42:01.183+0000] {processor.py:186} INFO - Started process (PID=19203) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:42:01.184+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:42:01.185+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:42:01.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:42:01.191+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:42:01.201+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:42:01.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:42:01.215+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:42:01.215+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2025-03-28T18:42:01.229+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.050 seconds
+[2025-03-28T18:42:56.456+0000] {processor.py:186} INFO - Started process (PID=19688) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:42:56.457+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:42:56.458+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:42:56.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:42:56.463+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:42:56.473+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:42:56.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:42:56.488+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:42:56.488+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2025-03-28T18:42:56.502+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.050 seconds
+[2025-03-28T18:43:51.163+0000] {processor.py:186} INFO - Started process (PID=20177) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:43:51.164+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:43:51.165+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:43:51.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:43:51.171+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:43:51.180+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:43:51.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:43:51.195+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:43:51.195+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2025-03-28T18:43:51.209+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.050 seconds
+[2025-03-28T18:44:17.455+0000] {processor.py:186} INFO - Started process (PID=20402) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:44:17.455+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:44:17.457+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:44:17.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:44:17.463+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:44:17.461+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py", line 32, in <module>
+    hello_task = PythonOperator(
+                 ^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/operators/python.py", line 222, in __init__
+    super().__init__(**kwargs)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 979, in __init__
+    task_group.add(self)
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/utils/task_group.py", line 256, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'print_hello_task' has already been added to the DAG
+[2025-03-28T18:44:17.463+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:44:17.476+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.025 seconds
+[2025-03-28T18:44:44.272+0000] {processor.py:186} INFO - Started process (PID=20649) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:44:44.272+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:44:44.274+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:44:44.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:44:44.280+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:44:44.366+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:44:44.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:44:44.379+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:44:44.379+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2025-03-28T18:44:44.401+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.134 seconds
+[2025-03-28T18:45:12.202+0000] {processor.py:186} INFO - Started process (PID=20898) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:45:12.203+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:45:12.204+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:45:12.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:45:12.207+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:45:12.206+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py", line 38
+    hello_task -> hi_task
+               ^^
+SyntaxError: invalid syntax
+[2025-03-28T18:45:12.207+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:45:12.220+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.022 seconds
+[2025-03-28T18:46:05.333+0000] {processor.py:186} INFO - Started process (PID=21364) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:46:05.334+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:46:05.335+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:46:05.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:46:05.338+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:46:05.337+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py", line 38
+    hello_task -> hi_task
+               ^^
+SyntaxError: invalid syntax
+[2025-03-28T18:46:05.338+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:46:05.351+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.022 seconds
+[2025-03-28T18:47:00.255+0000] {processor.py:186} INFO - Started process (PID=21843) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:47:00.256+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:47:00.257+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:47:00.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:47:00.260+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:47:00.259+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py", line 38
+    hello_task -> hi_task
+               ^^
+SyntaxError: invalid syntax
+[2025-03-28T18:47:00.260+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:47:00.273+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.022 seconds
+[2025-03-28T18:47:50.968+0000] {processor.py:186} INFO - Started process (PID=22253) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:47:50.969+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:47:50.970+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:47:50.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:47:50.972+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:47:50.972+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py", line 38
+    hello_task -> hi_task
+               ^^
+SyntaxError: invalid syntax
+[2025-03-28T18:47:50.973+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:47:50.985+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.020 seconds
+[2025-03-28T18:48:17.903+0000] {processor.py:186} INFO - Started process (PID=22479) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:48:17.904+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:48:17.904+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:48:17.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:48:17.907+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:48:17.906+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py", line 38
+    hello_task  hi_task
+                ^^^^^^^
+SyntaxError: invalid syntax
+[2025-03-28T18:48:17.907+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:48:17.920+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.021 seconds
+[2025-03-28T18:48:47.850+0000] {processor.py:186} INFO - Started process (PID=22733) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:48:47.851+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:48:47.851+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:48:47.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:48:47.854+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:48:47.853+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py", line 38
+    hello_task-->hi_task
+               ^^
+SyntaxError: invalid syntax
+[2025-03-28T18:48:47.855+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:48:47.867+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.021 seconds
+[2025-03-28T18:49:41.079+0000] {processor.py:186} INFO - Started process (PID=23160) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:49:41.079+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:49:41.080+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:49:41.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:49:41.083+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:49:41.082+0000] {dagbag.py:387} ERROR - Failed to import: /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 990, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1058, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py", line 38
+    hello_task hi_task
+               ^^^^^^^
+SyntaxError: invalid syntax
+[2025-03-28T18:49:41.083+0000] {processor.py:927} WARNING - No viable dags retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:49:41.096+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.021 seconds
+[2025-03-28T18:50:10.514+0000] {processor.py:186} INFO - Started process (PID=23407) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:50:10.514+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:50:10.516+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:50:10.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:50:10.523+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:50:10.603+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:50:10.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:50:10.616+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:50:10.616+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2025-03-28T18:50:10.635+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.125 seconds
+[2025-03-28T18:50:39.724+0000] {processor.py:186} INFO - Started process (PID=23641) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:50:39.725+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:50:39.726+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:50:39.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:50:39.732+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:50:39.737+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:50:39.737+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:50:39.752+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:50:39.752+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2025-03-28T18:50:39.768+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.047 seconds
+[2025-03-28T18:51:27.669+0000] {processor.py:186} INFO - Started process (PID=24077) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:51:27.670+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:51:27.671+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:51:27.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:51:27.677+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:51:27.689+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:51:27.689+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:51:27.710+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:51:27.710+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-03-06 00:00:00+00:00, run_after=2024-03-07 00:00:00+00:00
+[2025-03-28T18:51:27.729+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.064 seconds
+[2025-03-28T18:53:57.436+0000] {processor.py:186} INFO - Started process (PID=25539) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:53:57.436+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:53:57.437+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:53:57.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:53:57.443+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:53:57.455+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:53:57.455+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:53:57.471+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:53:57.471+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-04-04 00:00:00+00:00, run_after=2024-04-05 00:00:00+00:00
+[2025-03-28T18:53:57.485+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.053 seconds
+[2025-03-28T18:56:33.453+0000] {processor.py:186} INFO - Started process (PID=27154) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:56:33.453+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:56:33.455+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:56:33.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:56:33.463+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:56:33.476+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:56:33.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:56:33.493+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:56:33.493+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-05-04 00:00:00+00:00, run_after=2024-05-05 00:00:00+00:00
+[2025-03-28T18:56:33.507+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.060 seconds
+[2025-03-28T18:59:07.785+0000] {processor.py:186} INFO - Started process (PID=28829) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:59:07.786+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T18:59:07.787+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:59:07.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:59:07.793+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T18:59:07.803+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:59:07.803+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T18:59:07.817+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:59:07.817+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
+[2025-03-28T18:59:07.832+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.051 seconds
