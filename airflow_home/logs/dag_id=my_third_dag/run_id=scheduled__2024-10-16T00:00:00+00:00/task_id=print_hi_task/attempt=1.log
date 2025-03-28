@@ -1,0 +1,26 @@
+[2025-03-28T19:11:17.418+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-28T19:11:17.428+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_third_dag.print_hi_task scheduled__2024-10-16T00:00:00+00:00 [queued]>
+[2025-03-28T19:11:17.435+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_third_dag.print_hi_task scheduled__2024-10-16T00:00:00+00:00 [queued]>
+[2025-03-28T19:11:17.435+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-28T19:11:17.446+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): print_hi_task> on 2024-10-16 00:00:00+00:00
+[2025-03-28T19:11:17.451+0000] {standard_task_runner.py:72} INFO - Started process 38262 to run task
+[2025-03-28T19:11:17.453+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'my_third_dag', 'print_hi_task', 'scheduled__2024-10-16T00:00:00+00:00', '--job-id', '469', '--raw', '--subdir', 'DAGS_FOLDER/my_second_dag copy.py', '--cfg-path', '/tmp/tmpk953popj']
+[2025-03-28T19:11:17.453+0000] {standard_task_runner.py:105} INFO - Job 469: Subtask print_hi_task
+[2025-03-28T19:11:17.478+0000] {task_command.py:467} INFO - Running <TaskInstance: my_third_dag.print_hi_task scheduled__2024-10-16T00:00:00+00:00 [running]> on host codespaces-6cda86
+[2025-03-28T19:11:17.519+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_third_dag' AIRFLOW_CTX_TASK_ID='print_hi_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-16T00:00:00+00:00'
+[2025-03-28T19:11:17.520+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-28T19:11:17.520+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-28T19:11:17.521+0000] {logging_mixin.py:190} INFO - Current task name:print_hi_task state:running start_date:2025-03-28 19:11:17.429293+00:00
+[2025-03-28T19:11:17.521+0000] {logging_mixin.py:190} INFO - Dag name:my_third_dag and current dag run status:running
+[2025-03-28T19:11:17.521+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-28T19:11:17.522+0000] {logging_mixin.py:190} INFO - Hi, Airflow from the workspace! 🚀
+[2025-03-28T19:11:17.522+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-28T19:11:17.525+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-28T19:11:17.525+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=my_third_dag, task_id=print_hi_task, run_id=scheduled__2024-10-16T00:00:00+00:00, execution_date=20241016T000000, start_date=20250328T191117, end_date=20250328T191117
+[2025-03-28T19:11:17.537+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-28T19:11:17.537+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-28T19:11:17.537+0000] {logging_mixin.py:190} INFO - Dag name:my_third_dag queued_at:2025-03-28 19:11:08.558285+00:00
+[2025-03-28T19:11:17.537+0000] {logging_mixin.py:190} INFO - Task hostname:codespaces-6cda86 operator:PythonOperator
+[2025-03-28T19:11:17.545+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-28T19:11:17.554+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-28T19:11:17.554+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

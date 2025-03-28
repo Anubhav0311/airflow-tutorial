@@ -244,3 +244,24 @@
 [2025-03-28T19:02:24.519+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:02:24.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-28T19:02:24.529+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:02:24.529+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
 [2025-03-28T19:02:24.543+0000] {processor.py:208} INFO - Processing /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.049 seconds
+[2025-03-28T19:04:59.493+0000] {processor.py:186} INFO - Started process (PID=32814) to work on /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-03-28T19:04:59.494+0000] {processor.py:914} INFO - Processing file /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2025-03-28T19:04:59.495+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:04:59.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-03-28T19:04:59.504+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-03-28T19:04:59.515+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:04:59.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T19:04:59.525+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:04:59.525+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2025-03-28T19:04:59.541+0000] {processor.py:208} INFO - Processing /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.051 seconds
+[2025-03-28T19:07:35.559+0000] {processor.py:186} INFO - Started process (PID=34837) to work on /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-03-28T19:07:35.560+0000] {processor.py:914} INFO - Processing file /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2025-03-28T19:07:35.560+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:07:35.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-03-28T19:07:35.570+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-03-28T19:07:35.582+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:07:35.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T19:07:35.592+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:07:35.592+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2025-03-28T19:07:35.608+0000] {processor.py:208} INFO - Processing /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.053 seconds
+[2025-03-28T19:10:31.443+0000] {processor.py:186} INFO - Started process (PID=37759) to work on /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-03-28T19:10:31.444+0000] {processor.py:914} INFO - Processing file /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2025-03-28T19:10:31.445+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:10:31.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-03-28T19:10:31.455+0000] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2025-03-28T19:10:31.538+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:10:31.538+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T19:10:31.546+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:10:31.546+0000] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2025-03-28T19:10:31.561+0000] {processor.py:208} INFO - Processing /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.122 seconds
