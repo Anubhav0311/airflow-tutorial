@@ -236,3 +236,17 @@ SyntaxError: invalid syntax
 [2025-03-28T18:59:07.803+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:59:07.803+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-28T18:59:07.817+0000] {logging_mixin.py:190} INFO - [2025-03-28T18:59:07.817+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-06-03 00:00:00+00:00, run_after=2024-06-04 00:00:00+00:00
 [2025-03-28T18:59:07.832+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.051 seconds
+[2025-03-28T19:01:43.908+0000] {processor.py:186} INFO - Started process (PID=30504) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T19:01:43.909+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T19:01:43.910+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:01:43.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T19:01:43.916+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T19:01:43.928+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:01:43.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T19:01:43.946+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:01:43.946+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-07-03 00:00:00+00:00, run_after=2024-07-04 00:00:00+00:00
+[2025-03-28T19:01:43.963+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.058 seconds
+[2025-03-28T19:04:19.008+0000] {processor.py:186} INFO - Started process (PID=32360) to work on /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T19:04:19.009+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py for tasks to queue
+[2025-03-28T19:04:19.010+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:04:19.010+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T19:04:19.016+0000] {processor.py:925} INFO - DAG(s) 'my_third_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py
+[2025-03-28T19:04:19.027+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:04:19.026+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T19:04:19.041+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:04:19.041+0000] {dag.py:4180} INFO - Setting next_dagrun for my_third_dag to 2024-08-02 00:00:00+00:00, run_after=2024-08-03 00:00:00+00:00
+[2025-03-28T19:04:19.055+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/my_second_dag copy.py took 0.051 seconds

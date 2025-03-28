@@ -230,3 +230,10 @@
 [2025-03-28T19:00:46.150+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:00:46.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-28T19:00:46.168+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:00:46.168+0000] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2025-03-28 18:59:00+00:00, run_after=2025-03-28 19:00:00+00:00
 [2025-03-28T19:00:46.184+0000] {processor.py:208} INFO - Processing /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.060 seconds
+[2025-03-28T19:03:21.545+0000] {processor.py:186} INFO - Started process (PID=31776) to work on /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-03-28T19:03:21.546+0000] {processor.py:914} INFO - Processing file /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2025-03-28T19:03:21.547+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:03:21.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-03-28T19:03:21.556+0000] {processor.py:925} INFO - DAG(s) 'example_passing_params_via_test_command' retrieved from /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2025-03-28T19:03:21.568+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:03:21.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-28T19:03:21.586+0000] {logging_mixin.py:190} INFO - [2025-03-28T19:03:21.586+0000] {dag.py:4180} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2025-03-28 19:02:00+00:00, run_after=2025-03-28 19:03:00+00:00
+[2025-03-28T19:03:21.601+0000] {processor.py:208} INFO - Processing /usr/local/python/3.12.1/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.059 seconds
