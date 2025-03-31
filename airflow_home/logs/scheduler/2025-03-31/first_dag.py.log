@@ -1,0 +1,85 @@
+[2025-03-31T19:28:42.349+0000] {processor.py:186} INFO - Started process (PID=16496) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:28:42.350+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:28:42.351+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:28:42.361+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:28:42.453+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.453+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:conditional_branching_dag
+[2025-03-31T19:28:42.462+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.461+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:conditional_branching_dag
+[2025-03-31T19:28:42.467+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.467+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:conditional_branching_dag
+[2025-03-31T19:28:42.476+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.476+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:conditional_branching_dag
+[2025-03-31T19:28:42.482+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.481+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:conditional_branching_dag
+[2025-03-31T19:28:42.487+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.487+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:conditional_branching_dag
+[2025-03-31T19:28:42.494+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.493+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:conditional_branching_dag
+[2025-03-31T19:28:42.494+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:28:42.502+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.502+0000] {dag.py:3262} INFO - Creating ORM DAG for conditional_branching_dag
+[2025-03-31T19:28:42.509+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:28:42.509+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-30 00:00:00+00:00, run_after=2025-03-31 00:00:00+00:00
+[2025-03-31T19:28:42.523+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.178 seconds
+[2025-03-31T19:29:40.031+0000] {processor.py:186} INFO - Started process (PID=16964) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:29:40.032+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:29:40.033+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:29:40.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:29:40.042+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:29:40.053+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:29:40.053+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:29:40.069+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:29:40.069+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-30 00:00:00+00:00, run_after=2025-03-31 00:00:00+00:00
+[2025-03-31T19:29:40.084+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.057 seconds
+[2025-03-31T19:30:37.611+0000] {processor.py:186} INFO - Started process (PID=17428) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:30:37.612+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:30:37.613+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:30:37.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:30:37.621+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:30:37.633+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:30:37.633+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:30:37.650+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:30:37.650+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-30 00:00:00+00:00, run_after=2025-03-31 00:00:00+00:00
+[2025-03-31T19:30:37.664+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.057 seconds
+[2025-03-31T19:31:32.928+0000] {processor.py:186} INFO - Started process (PID=17852) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:31:32.929+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:31:32.930+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:31:32.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:31:32.938+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:31:32.949+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:31:32.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:31:32.965+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:31:32.965+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-30 00:00:00+00:00, run_after=2025-03-31 00:00:00+00:00
+[2025-03-31T19:31:32.980+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.056 seconds
+[2025-03-31T19:32:28.328+0000] {processor.py:186} INFO - Started process (PID=18313) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:32:28.328+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:32:28.330+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:32:28.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:32:28.337+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:32:28.349+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:32:28.348+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:32:28.365+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:32:28.365+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-30 00:00:00+00:00, run_after=2025-03-31 00:00:00+00:00
+[2025-03-31T19:32:28.379+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.055 seconds
+[2025-03-31T19:33:25.893+0000] {processor.py:186} INFO - Started process (PID=18773) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:33:25.893+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:33:25.895+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:33:25.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:33:25.903+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:33:25.914+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:33:25.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:33:25.929+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:33:25.929+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-30 00:00:00+00:00, run_after=2025-03-31 00:00:00+00:00
+[2025-03-31T19:33:25.944+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.055 seconds
+[2025-03-31T19:34:26.594+0000] {processor.py:186} INFO - Started process (PID=19278) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:34:26.594+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:34:26.596+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:34:26.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:34:26.603+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:34:26.615+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:34:26.614+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:34:26.634+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:34:26.634+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-31 00:00:00+00:00, run_after=2025-04-01 00:00:00+00:00
+[2025-03-31T19:34:26.651+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.062 seconds
+[2025-03-31T19:35:22.016+0000] {processor.py:186} INFO - Started process (PID=19723) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:35:22.017+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:35:22.018+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:35:22.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:35:22.026+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:35:22.037+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:35:22.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:35:22.053+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:35:22.053+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-31 00:00:00+00:00, run_after=2025-04-01 00:00:00+00:00
+[2025-03-31T19:35:22.068+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.056 seconds
+[2025-03-31T19:36:19.504+0000] {processor.py:186} INFO - Started process (PID=20207) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:36:19.504+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:36:19.506+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:36:19.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:36:19.514+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:36:19.525+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:36:19.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:36:19.541+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:36:19.541+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-31 00:00:00+00:00, run_after=2025-04-01 00:00:00+00:00
+[2025-03-31T19:36:19.555+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.055 seconds
+[2025-03-31T19:37:13.933+0000] {processor.py:186} INFO - Started process (PID=20632) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:37:13.934+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:37:13.935+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:37:13.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:37:13.943+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:37:13.955+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:37:13.954+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:37:13.971+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:37:13.971+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-31 00:00:00+00:00, run_after=2025-04-01 00:00:00+00:00
+[2025-03-31T19:37:13.985+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.056 seconds
+[2025-03-31T19:38:09.283+0000] {processor.py:186} INFO - Started process (PID=21060) to work on /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:38:09.283+0000] {processor.py:914} INFO - Processing file /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py for tasks to queue
+[2025-03-31T19:38:09.285+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:38:09.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:38:09.293+0000] {processor.py:925} INFO - DAG(s) 'conditional_branching_dag' retrieved from /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py
+[2025-03-31T19:38:09.304+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:38:09.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-31T19:38:09.320+0000] {logging_mixin.py:190} INFO - [2025-03-31T19:38:09.320+0000] {dag.py:4180} INFO - Setting next_dagrun for conditional_branching_dag to 2025-03-31 00:00:00+00:00, run_after=2025-04-01 00:00:00+00:00
+[2025-03-31T19:38:09.335+0000] {processor.py:208} INFO - Processing /workspaces/airflow-tutorial/airflow_home/dags/first_dag.py took 0.056 seconds
